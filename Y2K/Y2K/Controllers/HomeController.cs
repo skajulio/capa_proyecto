@@ -11,7 +11,7 @@ namespace Y2K.Controllers
     {
         public ActionResult Index()
         {
-            Resource.GetCity();
+            //Resource.GetCity();
             return View();
         }
 

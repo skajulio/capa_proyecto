@@ -18,10 +18,10 @@ namespace Y2K.Resources
             {
                 if (!context.City.Any())
                 {
-                    string content = Task.Run(GetDate).Result;
-                    List<City> cities = JsonConvert.DeserializeObject<List<City>>(content);
-                    context.City.AddRange(cities);
-                    context.SaveChanges();
+                    //string content = Task.Run(GetDate).Result;
+                    //List<City> cities = JsonConvert.DeserializeObject<List<City>>(content);
+                    //context.City.AddRange(cities);
+                    //context.SaveChanges();
                 }
             }
         }
