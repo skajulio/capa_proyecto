@@ -7,7 +7,6 @@ namespace Y2K.Models
     {
         //[Key,DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
-        public int IdExternal { get; set; }
         public string Name { get; set; }
         public string Country { get; set; }
     }
