@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Y2K.Resources;
 using System.Web.Mvc;
 
 namespace Y2K.Controllers
@@ -10,6 +11,7 @@ namespace Y2K.Controllers
     {
         public ActionResult Index()
         {
+            Resource.GetCity();
             return View();
         }
 
