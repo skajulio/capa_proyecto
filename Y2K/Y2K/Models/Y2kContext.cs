@@ -9,5 +9,6 @@ namespace Y2K.Models
     public class Y2kContext:DbContext
     {
         public DbSet<City> City { get; set; }
+        public DbSet<Weather> Weather { get; set; }
     }
 }
