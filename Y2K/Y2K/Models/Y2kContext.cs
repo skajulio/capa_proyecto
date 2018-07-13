@@ -10,5 +10,6 @@ namespace Y2K.Models
     {
         public DbSet<City> City { get; set; }
         public DbSet<Reservation> Reservacion { get; set; }
+        public DbSet<Weather> Weather { get; set; }
     }
 }
