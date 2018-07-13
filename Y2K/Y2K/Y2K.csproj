@@ -178,11 +178,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807131450298_BloqueoIdCity5.cs" />
-    <Compile Include="Migrations\201807131450298_BloqueoIdCity5.Designer.cs">
-      <DependentUpon>201807131450298_BloqueoIdCity5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\Weather.cs" />
     <Compile Include="Models\Y2kContext.cs" />
@@ -245,11 +240,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807131450298_BloqueoIdCity5.resx">
-      <DependentUpon>201807131450298_BloqueoIdCity5.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
